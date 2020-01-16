@@ -29,6 +29,10 @@ class App extends Component {
           place="monsters search"
           handler={e => this.setState({searchField: e.target.value})}
         />
+        <SearchBox
+          place="monsters search"
+          handler={e => this.setState({searchField: e.target.value})}
+        />
         <CardList monsters={filteredCats}/>
       </div>
     )
